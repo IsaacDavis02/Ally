@@ -106,3 +106,4 @@ def test_store():
     assert swarmnode.Store.retrieve(store.id).id == store.id
     swarmnode.Store.delete(store.id)
     assert swarmnode.Store.list().total_count == 1
+
