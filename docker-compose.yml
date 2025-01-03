@@ -44,3 +44,4 @@ services:
     environment:
       - SWARMNODE_API_KEY=
       - SWARMNODE_API_BASE=
+      
