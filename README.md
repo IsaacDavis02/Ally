@@ -3,7 +3,7 @@
 
 Ally is an interactive social media agent built using [SwarmNode](https://github.com/swarmnode-ai) framework
 
-Follow Ally: [Ally_SNAI](https://x.com/ally_snai)
+Follow Ally on X: [Ally_SNAI](https://x.com/ally_snai)
 
 ## Documentation
 
