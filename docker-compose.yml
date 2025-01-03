@@ -1,0 +1,46 @@
+version: "3.9"
+
+services:
+  py39:
+    container_name: swarmnode-py39
+    build:
+      dockerfile: Dockerfile
+      target: py39
+    volumes:
+      - .:/repository/
+    environment:
+      - SWARMNODE_API_KEY=
+      - SWARMNODE_API_BASE=
+
+  py310:
+    container_name: swarmnode-py310
+    build:
+      dockerfile: Dockerfile
+      target: py310
+    volumes:
+      - .:/repository/
+    environment:
+      - SWARMNODE_API_KEY=
+      - SWARMNODE_API_BASE=
+
+  py311:
+    container_name: swarmnode-py311
+    build:
+      dockerfile: Dockerfile
+      target: py311
+    volumes:
+      - .:/repository/
+    environment:
+      - SWARMNODE_API_KEY=
+      - SWARMNODE_API_BASE=
+
+  py312:
+    container_name: swarmnode-py312
+    build:
+      dockerfile: Dockerfile
+      target: py312
+    volumes:
+      - .:/repository/
+    environment:
+      - SWARMNODE_API_KEY=
+      - SWARMNODE_API_BASE=

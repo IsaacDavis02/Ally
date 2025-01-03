@@ -1,0 +1,13 @@
+# Core
+requests==2.32.3
+websockets==13.1
+
+# Testing
+pytest==8.3.4
+
+# Code quality
+mypy==1.14.0
+isort==5.13.2
+black==24.10.0
+flake8==7.1.1
+types-requests==2.32.0.20241016
